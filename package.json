@@ -1,8 +1,8 @@
 {
   "name": "@samwen/base62-shax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "base62 encode for crypto hash algorithms: sha1, sha224, sha256, sha384 and sha512",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
