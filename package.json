@@ -1,0 +1,40 @@
+{
+  "name": "@samwen/base62-shax",
+  "version": "1.0.1",
+  "description": "base62 encode for crypto hash algorithms: sha1, sha224, sha256, sha384 and sha512",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "base-x": "^3.0.7"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samswen/base62-shax.git"
+  },
+  "keywords": [
+    "base62",
+    "hash",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "author": "Sam Wen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samswen/base62-shax/issues"
+  },
+  "homepage": "https://github.com/samswen/base62-shax#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.2",
+    "sinon": "^8.0.2"
+  }
+}
